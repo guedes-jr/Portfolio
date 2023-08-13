@@ -1,0 +1,1 @@
+# Parei aqui https://youtu.be/_rWKTxvTUzQ?list=PLz_5rPRIvGECVDOGY8fMs3-8uZVlyJ-gr&t=1063
