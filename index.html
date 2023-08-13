@@ -1,296 +1,539 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
+<head>
     <!-- METAS -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="./src/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    />
-
-    <!-- SCRIPTS CDN -->
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- TITLE -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./assets/title/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/title/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./assets/title/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/site.webmanifest" />
     <title>Portifólio</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar">
-        <div class="max-width">
-          <div class="logo">
-            <a href="">JR<span> Guedes</span></a>
-          </div>
-          <ul class="menu">
-            <li><a href="#home">Início</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#services">Serviços</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#teams">Equipe</a></li>
-            <li><a href="#contact">Contato</a></li>
-          </ul>
-          <div class="menu-btn">
-            <i class="fas fa-bars"></i>
-          </div>
+        <!-- TITLE -->
+        <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="./assets/title/apple-touch-icon.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="./assets/title/favicon-32x32.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="./assets/title/favicon-16x16.png"
+      />
+      <link rel="manifest" href="/site.webmanifest" />
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/skins/color-1.css">
+    <!-- Style-Switcher -->
+    <link rel="stylesheet" href="./css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="./css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="./css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="./css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="./css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="./css/style-switcher.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span>A</span>tlas</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Início</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i> Sobre</a></li>
+                <li><a href="#services"><i class="fa fa-list"></i> Serviços</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portifólio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i> Contatos</a></li>
+            </ul>
         </div>
-      </nav>
-    </header>
-    <!-- header -->
-    <main>
-      <section class="home" id="home">
-        <div class="img-wrapper">
-          <img src="./src/img/banner.jpg" alt="banner" />
-        </div>
-        <!-- img-wrapper -->
-        <div class="max-width">
-          <div class="home-content">
-            <div class="text_1">Olá! meu nome é</div>
-            <div class="text_2">João Guedes</div>
-            <div class="text_3">Eu sou <span>Programador</span></div>
-            <a href="#">Contrate-me</a>
-          </div>
-          <!-- home-content -->
-        </div>
-        <!-- max-width -->
-      </section>
-      <!-- home -->
 
-      <section class="about" id="about">
-        <div class="max-width">
-          <h2 class="title">Sobe <span>min</span></h2>
-          <div class="about-content">
-            <div class="column left">
-              <img src="./src/img/profile_1.jpg" alt="Profile" />
-            </div>
-            <!-- column left -->
-            <div class="column right">
-              <div class="text">Eu sou Progamador <span>Full Stack</span></div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Nesciunt fugiat eius inventore impedit sapiente repudiandae
-                nemo, neque magni est, distinctio laboriosam minus id nihil
-                mollitia, aperiam nulla accusamus? Doloremque maiores inventore
-                expedita earum aliquid omnis animi facilis. Voluptates,
-                voluptatem nesciunt. Perferendis culpa, blanditiis quaerat fugit
-                quis amet optio natus impedit eius ab ipsa ipsam maiores! Itaque
-                eligendi doloribus voluptatum quaerat.
-              </p>
-              <a href="#about">Ver Currículo</a>
-            </div>
-            <!-- column right -->
-          </div>
-          <!-- about-content -->
-        </div>
-        <!-- max-width -->
-      </section>
-      <!-- about -->
-
-      <section class="services" id="services">
-        <div class="max-width">
-          <h2 class="title">Meus <span>Serviços</span></h2>
-          <div class="services-content">
-            <div class="card">
-              <div class="box">
-                <i class="fas fa-paint-brush"></i>
-                <div class="text">Web Design</div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Deleniti provident alias excepturi tempore, velit
-                  perspiciatis!
-                </p>
-              </div>
-            </div>
-            <!-- card -->
-            <div class="card">
-              <div class="box">
-                <i class="fas fa-chart-line"></i>
-                <div class="text">Anúncios</div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Deleniti provident alias excepturi tempore, velit
-                  perspiciatis!
-                </p>
-              </div>
-            </div>
-            <!-- card -->
-            <div class="card">
-              <div class="box">
-                <i class="fas fa-code"></i>
-                <div class="text">Apps Design</div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Deleniti provident alias excepturi tempore, velit
-                  perspiciatis!
-                </p>
-              </div>
-            </div>
-            <!-- card -->
-          </div>
-          <!-- services-content -->
-        </div>
-        <!-- max-width -->
-      </section>
-      <!-- services -->
-
-      <section class="skills" id="skills">
-        <div class="max-width">
-          <h2 class="title">Minhas <span>Habilidades</span></h2>
-          <div class="skills-content">
-            <div class="column left">
-              <div class="text">
-                Minhas habilidades criativas e experiências
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Similique doloremque necessitatibus, voluptatem vel qui sequi
-                nobis earum quos. Temporibus doloremque corporis odio nulla
-                natus quibusdam odit excepturi animi accusantium reiciendis
-                dicta nam asperiores est magnam tempore harum amet eos neque
-                recusandae, exercitationem nobis quo ipsa atque aliquam. Ex nam
-                a aperiam, sapiente maxime commodi enim saepe rerum aliquid
-                cupiditate odio?
-              </p>
-              <a href="#">Ver mais</a>
-            </div>
-            <!-- column left -->
-            <div class="column right">
-              <div class="bars">
-                <div class="info">
-                  <span>HTML</span>
-                  <span>90%</span>
+        <div class="main-content">
+            <section class="home section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Olá meu nome é <span class="name">João Guedes</span></h3>
+                            <h3 class="my-profession">Eu sou um <span class="typing">Web Designer</span></h3>
+                            <p>
+                                Sou web designer com vasta experiência há mais de 10 anos. Minha experiência em criação 
+                                e design de sites, design gráfico e muito mais...
+                            </p>
+                            <a href="#contact" class="btn hire-me">Contrate-me</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="./images/perfil.png" alt="perfil">
+                        </div>
+                    </div>
                 </div>
-                <div class="line html"></div>
-              </div>
-              <!-- bars -->
-              <div class="bars">
-                <div class="info">
-                  <span>CSS</span>
-                  <span>60%</span>
+            </section>
+
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Sobre mim</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>Eu sou João Guedes e <span>Web Designer</span></h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum ab, 
+                                        nisi, incidunt temporibus ipsum adipisci autem aliquam iste fugit 
+                                        sunt molestiae, expedita nulla! Doloremque nulla expedita in consequatur 
+                                        minima iure.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Data de nascimento: <span>12 de maio de 1995</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Idade: <span>28</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Website: <span>guedesjr.com.br</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>E-mail: <span>joao.guedes.developer@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Escolaridade: <span>Pós-Gradual completa</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Telefone: <span>+55 (00) 99999-9999</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Cidade: <span>Natal</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Freelancer: <span>Avaliação</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#" class="btn">Download CV</a>
+                                            <a href="#" class="btn hire-me">Contrate-me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>Python & Django</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 96%;"></div>
+                                                <div class="skill-percent">96%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML & CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 95%;"></div>
+                                                <div class="skill-percent">95%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>JavaScript & Typescript</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%;"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>React + Vite</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%;"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Formações</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- TIMELINE -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2013 - 2015
+                                                    </h3>
+                                                    <h4 class="timeline-title">Professor de Matemática</h4>
+                                                    <p class="timeline-text">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                        Inventore tempore voluptatibus labore officia deleniti quae 
+                                                        hic eius id ea officiis?
+                                                    </p>
+                                                </div>
+                                                
+                                                <!-- TIMELINE -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2013 - 2015
+                                                    </h3>
+                                                    <h4 class="timeline-title">Professor de Matemática</h4>
+                                                    <p class="timeline-text">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                        Inventore tempore voluptatibus labore officia deleniti quae 
+                                                        hic eius id ea officiis?
+                                                    </p>
+                                                </div>
+
+                                                <!-- TIMELINE -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2013 - 2015
+                                                    </h3>
+                                                    <h4 class="timeline-title">Professor de Matemática</h4>
+                                                    <p class="timeline-text">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                        Inventore tempore voluptatibus labore officia deleniti quae 
+                                                        hic eius id ea officiis?
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="title">Experiência</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- TIMELINE -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2013 - 2015
+                                                    </h3>
+                                                    <h4 class="timeline-title">Professor de Matemática</h4>
+                                                    <p class="timeline-text">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                        Inventore tempore voluptatibus labore officia deleniti quae 
+                                                        hic eius id ea officiis?
+                                                    </p>
+                                                </div>
+                                                
+                                                <!-- TIMELINE -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2013 - 2015
+                                                    </h3>
+                                                    <h4 class="timeline-title">Professor de Matemática</h4>
+                                                    <p class="timeline-text">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                        Inventore tempore voluptatibus labore officia deleniti quae 
+                                                        hic eius id ea officiis?
+                                                    </p>
+                                                </div>
+
+                                                <!-- TIMELINE -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2013 - 2015
+                                                    </h3>
+                                                    <h4 class="timeline-title">Professor de Matemática</h4>
+                                                    <p class="timeline-text">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                        Inventore tempore voluptatibus labore officia deleniti quae 
+                                                        hic eius id ea officiis?
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="line css"></div>
-              </div>
-              <!-- bars -->
-              <div class="bars">
-                <div class="info">
-                  <span>JavaScript</span>
-                  <span>80%</span>
+            </section>
+
+            <section class="service section" id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Serviços</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Web Designer</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing 
+                                    elit. Doloremque laboriosam eum eius?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Programador Python & Django</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing 
+                                    elit. Doloremque laboriosam eum eius?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa-solid fa-database"></i>
+                                </div>
+                                <h4>Administrador de Banco de dados</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing 
+                                    elit. Doloremque laboriosam eum eius?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Programador React & NextJS</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing 
+                                    elit. Doloremque laboriosam eum eius?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <h4>Programador React & NextJS</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing 
+                                    elit. Doloremque laboriosam eum eius?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-bullhorn"></i>
+                                </div>
+                                <h4>Programador React & NextJS</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing 
+                                    elit. Doloremque laboriosam eum eius?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="line js"></div>
-              </div>
-              <!-- bars -->
-              <div class="bars">
-                <div class="info">
-                  <span>PHP</span>
-                  <span>90%</span>
+            </section>
+
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portifólio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>Meus Projetos: </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- portfolio item -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="./images/Projects/project-01.gif" alt="project 01">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="./images/Projects/project-02.gif" alt="project 02">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="./images/Projects/project-03.gif" alt="project 03">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="./images/Projects/project-04.gif" alt="project 04">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="./images/Projects/project-05.gif" alt="project 05">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="./images/Projects/project-06.gif" alt="project 06">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="line php"></div>
-              </div>
-              <!-- bars -->
-              <div class="bars">
-                <div class="info">
-                  <span>MySQL</span>
-                  <span>70%</span>
+            </section>
+
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contate-me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">Dúvidas? não exite em me chamar, estou a disposição</h3>
+                    <h4 class="contact-sub-title padd-15">ESTOU AOS SEUS SERVIÇOS</h4>
+                    <div class="row">
+                        <!-- Contact Item -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Ligue-me</h4>
+                            <p>+55 (00) 99999-9999</p>
+                        </div>
+
+                        <!-- Contact Item -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                            <h4>Escritório</h4>
+                            <p>Natal/RN</p>
+                        </div>
+
+                        <!-- Contact Item -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>E-mail</h4>
+                            <p>joao.guedes@guedesjr.com</p>
+                        </div>
+
+                         <!-- Contact Item -->
+                         <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h4>Web site</h4>
+                            <p>guedesjr.com</p>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">Mande-me um e-mail!</h3>
+                    <h4 class="contact-sub-title padd-15">Eu sou muito receptivo às mensagens</h4>
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Seu Nome">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Seu E-mail">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Assunto">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea type="text" class="form-control" placeholder="Mensagem"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn">Enviar mensagem</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="line sql"></div>
-              </div>
-              <!-- bars -->
-            </div>
-            <!-- column right -->
-          </div>
-          <!-- skills-content -->
+            </section>
         </div>
-        <!-- max-width -->
-      </section>
-      <!-- specialty -->
-
-      <section class="teams" id="teams">
-        <div class="max-width">
-          <h2 class="title">Meu Time</h2>
-          <div class="carousel owl-carousel">
-            <div class="card">
-              <div class="box">
-                <img src="./src/img/profile_1.jpg" alt="profile 1" />
-                <div class="text">Donald Fernandez</div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <!-- car -->
-
-            <div class="card">
-              <div class="box">
-                <img src="./src/img/profile_2.jpg" alt="profile 1" />
-                <div class="text">Byron Hall</div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <!-- car -->
-
-            <div class="card">
-              <div class="box">
-                <img src="./src/img/profile_3.jpg" alt="profile 1" />
-                <div class="text">Hunter Mckinney</div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <!-- car -->
-
-            <div class="card">
-              <div class="box">
-                <img src="./src/img/profile_4.jpg" alt="profile 1" />
-                <div class="text">Perú Gulúgulu</div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <!-- car -->
-
-            <div class="card">
-              <div class="box">
-                <img src="./src/img/profile_5.jpg" alt="profile 1" />
-                <div class="text">Dog Invocado</div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <!-- car -->
-          </div>
-          <!-- carousel -->
+    </div>
+    
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
         </div>
-        <!-- max-width -->
-      </section>
-      <!-- team -->
-
-      <section class="contact" id="contact"></section>
-      <!-- contact -->
-    </main>
-    <!-- main -->
-    <footer></footer>
-    <!-- footer -->
-    <!-- script -->
-    <script src="./src/js/script.js"></script>
-    <script src="./assets/icons/icons.js"></script>
-  </body>
+        <div class="day-night s-icon">
+            <i class="fas"></i>
+        </div>
+        <h4>Cores de Temas</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!-- SCRIPT JS -->
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js" 
+        integrity="sha512-hIlMpy2enepx9maXZF1gn0hsvPLerXoLHdb095CmRY5HG3bZfN7XPBZ14g+TUDH1aGgfLyPHmY9/zuU53smuMw==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer">
+    </script>
+    <script src="./js/script.js"></script>
+    <script src="./js/style-switcher.js"></script>
+</body>
 </html>
