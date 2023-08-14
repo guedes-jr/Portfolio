@@ -704,7 +704,7 @@ h3.my-profession {
 
 .portfolio .details p {
     font-size: 12px;
-    color: var(--bg-black-900);
+    color: #ffff;
     margin-bottom: 14px;
 }
 
@@ -767,7 +767,7 @@ h3.my-profession {
 .contact .contact-info-item p {
     font-size: 16px;
     line-height: 25px;
-    color: #fff;
+    color: var(--text-black-700);
     font-weight: 400;
 }
 
