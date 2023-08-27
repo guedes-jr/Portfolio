@@ -408,15 +408,20 @@ h3.my-profession {
 }
 
 .about .about-content .skills {
-    flex: 0 0 40%;
-    max-width: 40%;
-    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .about .about-content .skills .skill-item {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 150px;
+}
+
+.about .about-content .skills .skill-item img {
+    width: 100%;
 }
 
 .about .about-content .skills .skill-item h5 {
@@ -424,33 +429,24 @@ h3.my-profession {
     font-weight: 600;
     font-size: 16px;
     color: var(--text-black-900);
+    text-align: center;
     text-transform: capitalize;
 }
 
-.about .about-content .skills .skill-item .progress {
-    background-color: var(--bg-black-50);
-    height: 7px;
-    border-radius: 4px;
-    width: 100%;
-    position: relative;
+.swiper-pagination {
+    padding-top: 3rem;
 }
 
-.about .about-content .skills .skill-item .progress .progress-in {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    border-radius: 4px;
-    background-color: var(--skin-color);
+.swiper-button-prev {
+    margin-left: -.7rem;
 }
 
-.about .about-content .skills .skill-item .skill-percent {
-    position: absolute;
-    right: 0;
-    color: var(--text-black-900);
-    top: -40px;
-    font-weight: 400;
-    line-height: 40px;
+.swiper-button-next {
+    margin-right: -.7rem;
+}
+
+.swiper-wrapper {
+    margin: .5 2rem;
 }
 
 .about .about-content .education,
@@ -465,6 +461,7 @@ h3.my-profession {
     margin-bottom: 30px;
     font-weight: 700;
     color: var(--text-black-900);
+    margin-top: 3rem;
 }
 
 .about .about-content .timeline-box {
@@ -802,6 +799,10 @@ h3.my-profession {
     transition: all .3s ease;
 }
 
+.swiper-pagination {
+    color: var(--text-black-700);
+}
+
 .contact .contact-form .form-item .form-control:focus {
     box-shadow: 0 0 20px rgba(48, 46, 77, .15);
 }
@@ -813,6 +814,7 @@ h3.my-profession {
 .contact .contact-form .btn {
     height: 50px;
     padding: 0 50px;
+    cursor: pointer;
 }
 
 /* Medias Queries */

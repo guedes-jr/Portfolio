@@ -35,6 +35,10 @@
     <link rel="stylesheet" href="./css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
     <link rel="stylesheet" href="./css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
     <link rel="stylesheet" href="./css/style-switcher.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
 </head>
 <body class="dark">
     <div class="main-container">
@@ -126,47 +130,92 @@
                                     </div>
                                     <div class="row">
                                         <div class="buttons padd-15">
-                                            <a href="#" class="btn">Download CV</a>
-                                            <a href="#" class="btn hire-me">Contrate-me</a>
+                                            <a href="./doc/cv.pdf" target="_blank" class="btn">Download CV</a>
+                                            <a href="#contact" class="btn hire-me">Contrate-me</a>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <div class="skills padd-15">
-                                    <div class="row">
-                                        <div class="skill-item padd-15">
-                                            <h5>Python & Django</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 96%;"></div>
-                                                <div class="skill-percent">96%</div>
-                                            </div>
+                                <h3 class="title">Conhecimentos e Habilidades</h3>
+                                <div class="swiper mySwiper">
+                                    <div class="skills padd-15 swiper-wrapper">
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"/>
+                                            <h5>bootstrap</h5>
                                         </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>HTML & CSS</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 95%;"></div>
-                                                <div class="skill-percent">95%</div>
-                                            </div>
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"/>
+                                            <h5>C#</h5>
                                         </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>JavaScript & Typescript</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 80%;"></div>
-                                                <div class="skill-percent">80%</div>
-                                            </div>
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
+                                            <h5>CSS3</h5>
                                         </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>React + Vite</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 80%;"></div>
-                                                <div class="skill-percent">80%</div>
-                                            </div>
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                                            <h5>Git</h5>
                                         </div>
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
+                                            <h5>HTML5</h5>
+                                        </div>
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
+                                            <h5>JavaScript</h5>
+                                        </div>
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/>
+                                            <h5>MySQL</h5>
+                                        </div>
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"/>
+                                            <h5>PHP</h5>
+                                        </div>
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+                                            <h5>Python</h5>
+                                        </div>
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
+                                            <h5>React</h5>
+                                        </div>
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"/>
+                                            <h5>Sass</h5>
+                                        </div>
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"/>
+                                            <h5>PostgreSQL</h5>
+                                        </div>
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://vitejs.dev/logo-with-shadow.png"/>
+                                            <h5>Vite</h5>
+                                        </div>
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"/>
+                                            <h5>Django</h5>
+                                        </div>
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/2048px-Microsoft_.NET_logo.svg.png"/>
+                                            <h5>>NET</h5>
+                                        </div>
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/800px-Vue.js_Logo_2.svg.png"/>
+                                            <h5>Vue JS</h5>
+                                        </div>
+                                        <div class="skill-item padd-15 swiper-slide">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"/>
+                                            <h5>Next JS</h5>
+                                        </div>  
                                     </div>
-                                </div> -->
+                                    <!-- If we need navigation buttons -->
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+
                             </div>
                             <div class="row">
                                 <div class="education padd-15">
-                                    <h3 class="title">Formações</h3>
+                                    <h3 class="title">Experiências</h3>
                                     <div class="row">
                                         <div class="timeline-box padd-15">
                                             <div class="timeline shadow-dark">
@@ -174,13 +223,12 @@
                                                 <div class="timeline-item">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2013 - 2015
+                                                        <i class="fa fa-calendar"></i> MAI/2014－ MAI/2015
                                                     </h3>
-                                                    <h4 class="timeline-title">Professor de Matemática</h4>
+                                                    <h4 class="timeline-title">IFRN - Estagiário em Pedagogia</h4>
                                                     <p class="timeline-text">
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                        Inventore tempore voluptatibus labore officia deleniti quae 
-                                                        hic eius id ea officiis?
+                                                        Fazer a Ata das reuniões pedagógicas; ouvir as declarações e/ou reclamações dos alunos; 
+                                                        Auxiliar os pedagogos em eventos, reuniões, entre outros.
                                                     </p>
                                                 </div>
                                                 
@@ -188,13 +236,11 @@
                                                 <div class="timeline-item">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2013 - 2015
+                                                        <i class="fa fa-calendar"></i> FEV/2017－ FEV/2019
                                                     </h3>
-                                                    <h4 class="timeline-title">Professor de Matemática</h4>
+                                                    <h4 class="timeline-title">Novo Mais Educação - Mediador de Matemática </h4>
                                                     <p class="timeline-text">
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                        Inventore tempore voluptatibus labore officia deleniti quae 
-                                                        hic eius id ea officiis?
+                                                        Ministrar aulas Lúdicas de Matemática, bem como aulas de reforço.
                                                     </p>
                                                 </div>
 
@@ -202,13 +248,38 @@
                                                 <div class="timeline-item">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2013 - 2015
+                                                        <i class="fa fa-calendar"></i> OUT/2017 - OUT/2019
                                                     </h3>
-                                                    <h4 class="timeline-title">Professor de Matemática</h4>
+                                                    <h4 class="timeline-title">SEEC - Professor temporário de Matemática</h4>
                                                     <p class="timeline-text">
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                        Inventore tempore voluptatibus labore officia deleniti quae 
-                                                        hic eius id ea officiis?
+                                                        Ministrar aulas da disciplina de matemática; Relatórios de participação e desempenho dos 
+                                                        alunos na disciplina de matemática.
+                                                    </p>
+                                                </div>
+
+                                                <!-- TIMELINE -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> FEV/2020－MAR/2022
+                                                    </h3>
+                                                    <h4 class="timeline-title">Top Web Telecom - Atendente/Suporte de Redes</h4>
+                                                    <p class="timeline-text">
+                                                        Atendimento remoto e presencial, suporte técnico por telefone tanto aos clientes quanto 
+                                                        aos técnicos de campo.
+                                                    </p>
+                                                </div>
+
+                                                <!-- TIMELINE -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> ABR/2022－ATUAL
+                                                    </h3>
+                                                    <h4 class="timeline-title">T S Montenegro Serviços de TI LTDA – Administrador de Banco de Dados</h4>
+                                                    <p class="timeline-text">
+                                                        Atuo como Analista de Importação Dados, trabalhando com a linguagem de programação python 
+                                                        na análise e tratamento de diversos tipos de bancos de dados, como MySQL, PostgreSQL, dentre outros.
                                                     </p>
                                                 </div>
                                             </div>
@@ -216,7 +287,7 @@
                                     </div>
                                 </div>
                                 <div class="experience padd-15">
-                                    <h3 class="title">Experiência</h3>
+                                    <h3 class="title">Formação</h3>
                                     <div class="row">
                                         <div class="timeline-box padd-15">
                                             <div class="timeline shadow-dark">
@@ -224,13 +295,11 @@
                                                 <div class="timeline-item">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2013 - 2015
+                                                        <i class="fa fa-calendar"></i> Novembro 2014
                                                     </h3>
-                                                    <h4 class="timeline-title">Professor de Matemática</h4>
+                                                    <h4 class="timeline-title">IFRN Nova Cruz/RN</h4>
                                                     <p class="timeline-text">
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                        Inventore tempore voluptatibus labore officia deleniti quae 
-                                                        hic eius id ea officiis?
+                                                        Curso Técnico em Informática: Informática
                                                     </p>
                                                 </div>
                                                 
@@ -238,13 +307,11 @@
                                                 <div class="timeline-item">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2013 - 2015
+                                                        <i class="fa fa-calendar"></i> Outubro 2015
                                                     </h3>
-                                                    <h4 class="timeline-title">Professor de Matemática</h4>
+                                                    <h4 class="timeline-title">UVA Santo Antonio/RN</h4>
                                                     <p class="timeline-text">
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                        Inventore tempore voluptatibus labore officia deleniti quae 
-                                                        hic eius id ea officiis?
+                                                        Licenciatura Plena em Pedagogia. : Pedagogia
                                                     </p>
                                                 </div>
 
@@ -252,13 +319,35 @@
                                                 <div class="timeline-item">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2013 - 2015
+                                                        <i class="fa fa-calendar"></i> Novembro 2015
                                                     </h3>
-                                                    <h4 class="timeline-title">Professor de Matemática</h4>
+                                                    <h4 class="timeline-title">UFRN Nova Cruz/RN</h4>
                                                     <p class="timeline-text">
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                        Inventore tempore voluptatibus labore officia deleniti quae 
-                                                        hic eius id ea officiis?
+                                                        Licenciatura Plena em Matemática.: Matemática
+                                                    </p>
+                                                </div>
+
+                                                <!-- TIMELINE -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> Fevereiro 2019
+                                                    </h3>
+                                                    <h4 class="timeline-title">Faculdade de Educação São Luís EaD</h4>
+                                                    <p class="timeline-text">
+                                                        Pós-Graduação em Metodologia do Ensino da Matemática: Matemática
+                                                    </p>
+                                                </div>
+
+                                                <!-- TIMELINE -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> Esperado em Agosto 2023
+                                                    </h3>
+                                                    <h4 class="timeline-title">IFRN Cursando</h4>
+                                                    <p class="timeline-text">
+                                                        Tecnologia em Análise e Desenvolvimento de Sistema: Programação Nova Cruz/RN
                                                     </p>
                                                 </div>
                                             </div>
@@ -554,30 +643,30 @@
                     <h3 class="contact-title padd-15">Mande-me um e-mail!</h3>
                     <h4 class="contact-sub-title padd-15">Eu sou muito receptivo às mensagens</h4>
                     <div class="row">
-                        <div class="contact-form padd-15">
+                        <form class="contact-form padd-15" action="https://formspree.io/f/xknlryvq" method="POST">
                             <div class="row">
                                 <div class="form-item col-6 padd-15">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Seu Nome">
+                                        <input type="text" name="Nome" class="form-control" placeholder="Seu Nome" required>
                                     </div>
                                 </div>
                                 <div class="form-item col-6 padd-15">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Seu E-mail">
+                                        <input type="email" name="E-mail" class="form-control" placeholder="Seu E-mail" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-item col-12 padd-15">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Assunto">
+                                        <input type="text" name="Assunto" class="form-control" placeholder="Assunto" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-item col-12 padd-15">
                                     <div class="form-group">
-                                        <textarea type="text" class="form-control" placeholder="Mensagem"></textarea>
+                                        <textarea type="text" name="Mensagem" class="form-control" placeholder="Mensagem" required></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -588,7 +677,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -617,6 +706,39 @@
         integrity="sha512-hIlMpy2enepx9maXZF1gn0hsvPLerXoLHdb095CmRY5HG3bZfN7XPBZ14g+TUDH1aGgfLyPHmY9/zuU53smuMw==" 
         crossorigin="anonymous" 
         referrerpolicy="no-referrer">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 5,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // Ajustar quantidade de acordo com tamanho da tela
+            breakpoints: {
+                770: {
+                    slidesPerView: 1,
+                    spaceBetween: 60
+                },
+                900: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+                1200: {
+                    slidesPerView: 4,
+                }
+            },
+        });
     </script>
     <script src="./js/script.js"></script>
     <script src="./js/style-switcher.js"></script>
